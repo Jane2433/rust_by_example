@@ -1,6 +1,7 @@
 mod hello_world;
+mod primitives;
 
 /// https://www.rustwiki.org.cn/zh-CN/std/index.html
 fn main() {
-    hello_world::format();
+    primitives::all_type();
 }
