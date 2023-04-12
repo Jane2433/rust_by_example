@@ -1,3 +1,6 @@
+mod hello_world;
+
+/// https://www.rustwiki.org.cn/zh-CN/std/index.html
 fn main() {
-    println!("Hello, world!");
+    hello_world::format();
 }
